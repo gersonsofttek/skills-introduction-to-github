@@ -1,0 +1,26 @@
+name: GutHub Introduction
+id: 'ari:cloud:compass:7686dd9a-f147-4d28-8e98-61167ade32df:component/b8578600-41af-4de2-a07a-ff0aeb22ea0a/a14c3f53-7ce0-4baa-8cd9-7c536e3aef45'
+description: Complemento para pruebas con el repositorio de introducción Gerson
+configVersion: 1
+typeId: SERVICE
+ownerId: 'ari:cloud:identity::team/1c74197a-ca0b-462b-8303-e149d2a61ac4'
+fields:
+  lifecycle: Pre-release
+  tier: 2
+  isMonorepoProject: false
+links:
+  - name: null
+    type: REPOSITORY
+    url: 'https://github.com/gersonsofttek/skills-introduction-to-github/tree/main'
+  - name: Primera Rama Practica
+    type: REPOSITORY
+    url: 'https://github.com/gersonsofttek/skills-introduction-to-github/tree/my-first-branch'
+relationships:
+  DEPENDS_ON:
+    - 'ari:cloud:compass:7686dd9a-f147-4d28-8e98-61167ade32df:component/b8578600-41af-4de2-a07a-ff0aeb22ea0a/9ad16dc3-02ba-4350-86c4-d18791c5191b'
+    - 'ari:cloud:compass:7686dd9a-f147-4d28-8e98-61167ade32df:component/b8578600-41af-4de2-a07a-ff0aeb22ea0a/9fa098a8-45b9-4df5-96cb-b64e8aaeb59e'
+labels: null
+customFields: null
+
+# Obtén más información sobre cómo dar formato a compass.yml:
+# https://go.atlassian.com/compass-yml-format
